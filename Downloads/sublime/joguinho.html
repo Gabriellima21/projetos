@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+
+
+<script>
+
+function pulaLinha() {
+
+	document.write ("<br><br>");
+}
+ 
+ function mostra (frase) {
+
+
+ 	document.write (frase);
+ 	pulaLinha ();
+ }
+
+
+var numeroPensado = Math.round(Math.random() *10); 
+    
+var nome = prompt("Informe seu nome ?"); 
+
+var chute = parseInt(prompt(nome +" Digite um número de 0 a 10"));
+
+var tentativa = 1
+
+for (tentativa = 1; tentativa <=3; tentativa ++); 
+
+if (numeroPensado == chute) {
+
+    mostra (nome + " você acertou! O numero pensado foi " + numeroPensado);
+    breack
+
+} else {
+
+    mostra (nome + " você errouuu! Tente novamente. ");
+    
+}
+
+
+</script>
